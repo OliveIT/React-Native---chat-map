@@ -1,0 +1,29 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+  },
+  "globals": {
+    "__DEV__": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "jsx-a11y",
+    "react",
+    "react-native"
+  ],
+  "root": true,
+  "rules": {
+    "react/jsx-filename-extension": [1, {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/jsx-indent": [1, 2],
+    "react/jsx-tag-spacing": "off",
+    "comma-dangle": [1, "always-multiline"],
+    "max-len": "off"
+  }
+}

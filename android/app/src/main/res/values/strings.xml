@@ -1,0 +1,6 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey"></string>
+    <string name="app_name">Vediohead</string>
+    <string name="fb_app_id">160329304708412</string>
+    <string name="fb_login_protocol_scheme">fb160329304708412</string>
+</resources>

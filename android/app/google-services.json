@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "1051464930028",
+    "firebase_url": "https://vediohead-f39019.firebaseio.com",
+    "project_id": "vediohead-f39019",
+    "storage_bucket": "vediohead-f39019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051464930028:android:63891d7f93c753a2",
+        "android_client_info": {
+          "package_name": "com.vediohead"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051464930028-2lgrntoopg2sq3eg9rr820i76g2of6hf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vediohead",
+            "certificate_hash": "e0d2fdf72b4d31d3d9043db7ae533f7ce2679c7c"
+          }
+        },
+        {
+          "client_id": "1051464930028-d88n27m6ochg683cimmnnitd4abrl76q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vediohead",
+            "certificate_hash": "34b63a7c0baec48f09c5bbf2b619fbb2f87222e8"
+          }
+        },
+        {
+          "client_id": "1051464930028-sju3ihopus9vi82q5nu0hutap1u73967.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vediohead",
+            "certificate_hash": "3b38e6827c4c6e088aad8d42ba064ece1d43ec41"
+          }
+        },
+        {
+          "client_id": "1051464930028-l6ai1ttae5op30ot2asbvn5tbbjtmcm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHFKsrlUF_LRbQ0FDTS47JOfvSI4A2ktA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051464930028-l6ai1ttae5op30ot2asbvn5tbbjtmcm6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1051464930028-l19g0g3ohodqumtpa713ie25n1g48vmc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vediohead"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

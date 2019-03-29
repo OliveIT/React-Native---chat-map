@@ -1,0 +1,47 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.google.gms:google-services:3.2.1'
+        classpath 'io.fabric.tools:gradle:+'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+        mavenLocal()
+    }
+}
+
+ext {
+    googlePlayServicesVersion = '15.0.0'
+    supportLibrariesVersion = '27.1.1'
+}
+
+// Force sub libs to use the compile sdk & build tools version
+subprojects { subproject ->
+    afterEvaluate{
+        if ((subproject.plugins.hasPlugin('android') || subproject.plugins.hasPlugin('android-library'))) {
+            android {
+                compileSdkVersion 28
+                buildToolsVersion '27.0.3'
+            }
+        }
+    }
+}
